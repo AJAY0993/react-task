@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input {
+        @apply w-full p-2 transition-all rounded border-2 border-neutral-300 focus:border-black focus:border-2 outline-none
+    }
+
+    .label {
+        @apply block mb-2 font-medium w-full
+    }
+}

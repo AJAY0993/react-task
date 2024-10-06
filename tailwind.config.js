@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        tanis: ["Tinos", "ui-sans-serif", "system-ui"]
-      }
-    }
+        tanis: ["Tinos", "ui-sans-serif", "system-ui"],
+      },
+    },
   },
-  plugins: []
-}
+  plugins: [],
+};
